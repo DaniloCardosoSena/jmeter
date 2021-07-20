@@ -2,8 +2,8 @@
 
 ### JMeter - Saída de arquivos padrões
 ```
-BT_1_${__time(yyyyMMdd-HHmmss)}.csv <br/>
-BT_2_${__time(yyyyMMdd-HHmmss)}.csv <br/>
+BT_1_${__time(yyyyMMdd-HHmmss)}.csv
+BT_2_${__time(yyyyMMdd-HHmmss)}.csv
 ```
 
 
@@ -14,7 +14,6 @@ BT_2_${__time(yyyyMMdd-HHmmss)}.csv <br/>
 | 10   	                | 900  	                  | 300  	        | 2400                  | 0  	            |
 | 10  	                | 1800  	          | 300  	        | 1500                  | 0  	            |
 | 10  	                | 2700  	          | 300  	        | 600                   | 0  	            |
-
 
 
 ### JMeter - HTTP Header Manager (REST XML Requests)
@@ -38,15 +37,14 @@ Content-Type: text/xml;charset=UTF-8 <br/>
 Accept-Encoding: gzip,deflate <br/>
 Connection: Keep-Alive <br/>
 SOAPAction: "" <br/>
-
-
-Body: <br/>
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bcp="http://bcp.porto.com/"> <br/>
-   <soapenv:Header/> <br/>
-   <soapenv:Body> <br/>
-   . <br/>
-   . <br/>
-   . <br/>
-   </soapenv:Body> <br/>
-</soapenv:Envelope> <br/>
-
+```
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bcp="http://bcp.porto.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+   .
+   .
+   .
+   </soapenv:Body>
+</soapenv:Envelope>
+```

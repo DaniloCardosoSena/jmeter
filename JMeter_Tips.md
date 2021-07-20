@@ -6,7 +6,7 @@ BT_2_${__time(yyyyMMdd-HHmmss)}.csv <br/>
 
 
 
-### JMeter - Ultimate Thread Group - Load Test
+### JMeter - Ultimate Thread Group - Load Test (40 Vus)
 |Start Thread Count   	| Initial Delay, sec   	  | Startup Time, sec  	| Hold Load For, sec  	| Shutdown Time     |
 |---	                |---	                  |---	                |---	                |---	            |
 | 10   	                | 0  	                  | 300  	        | 3300                  | 0  	            |
@@ -39,7 +39,7 @@ Connection: Keep-Alive <br/>
 SOAPAction: "" <br/>
 
 
-Body:
+Body: <br/>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bcp="http://bcp.porto.com/"> <br/>
    <soapenv:Header/> <br/>
    <soapenv:Body> <br/>

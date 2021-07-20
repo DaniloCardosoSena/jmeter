@@ -6,7 +6,7 @@ Execução jmeter por terminal:
 sh [caminho do jmeter"/bin/jmeter"] -n -t [caminho robo .jmx] -l [caminho de saida do .CSV/.JTL "aggregateReport.csv"]
 
 Execução jmeter por terminal Smoke(Thread Group) com variáveis:
-[Caminho do \bin\jmeter.bat] -Jthreads=50 -Jrampup=180 -Jduration=300 -n -t [caminho robo .jmx] -l
+[Caminho do \bin\jmeter.bat] -Jthreads=5 -Jrampup=60 -Jduration=300 -n -t [caminho robo .jmx] -l
 
 Geração de relatório jmeter charts:
 [Caminho do \bin\jmeter.bat] -g [Caminho do arquivo CSV para geração do relatório "agregate.csv"] -o [Caminho onde será salvo o relatório chamado index.html + Nome de uma pasta obrigatoriamente que não exista. Ex: "C:\Users\Relatorio_JMeterCharts"]

@@ -64,7 +64,7 @@ Body:
 
 ### JMeter - Jenkins Configs
 
-Configuracao para integracao via parametros
+Configuracao para integracao via parametros JMeter Thread Group
 
 |Param   	  	| EL / Value  		| Type			| Required				|
 |---	                |---	                |---			|---					|

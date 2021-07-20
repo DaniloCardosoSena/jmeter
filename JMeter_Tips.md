@@ -1,5 +1,16 @@
 # JMeter Tips
 
+### JMeter - Comandos
+comando tabular jmeter chart:
+```
+jmeter
+```
+comando play robo com saida csv
+```
+jmeter
+```
+
+
 ### JMeter - Saída de arquivos padrões
 ```
 BT_1_${__time(yyyyMMdd-HHmmss)}.csv
@@ -47,4 +58,23 @@ Body:
    .
    </soapenv:Body>
 </soapenv:Envelope>
+```
+
+### JMeter - Jenkins Configs
+
+Configuracao para integracao via parametros
+
+|Param   	  	| EL / Value  		| Type			| Required				|
+|---	                |---	                |---			|---					|
+| Number of Threads 	| ${__P(threads,1)}	| Integer		| Yes					|
+| Ramp-Up 		| ${__P(rampup,1)}	| Integer		| Yes					|
+| Loop-Count 		| ${__P(loopCount,1)}	| Integer		| No (Set true in JMeter is default)	|
+| Duration		| ${__P(duration,1)}	| Integer (Seconds)	| Yes					|
+| Startup delay		| ${__P(startup,1)}	| Integer (Seconds)	| Yes					|
+| Aggregate Report      | ${__P(aggregate)}	| String		| Yes					|
+
+
+Agendamento Esteira Jenkins:
+```
+00 22 * * 1
 ```

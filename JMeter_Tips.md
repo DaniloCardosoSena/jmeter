@@ -1,13 +1,12 @@
 # JMeter Tips
 
 ### JMeter - Comandos
-comando tabular jmeter chart:
 ```
-jmeter
-```
-comando play robo com saida csv
-```
-jmeter
+Execução jmeter por terminal:
+sh [caminho do jmeter"/bin/jmeter"] -n -t [caminho robo .jmx] -l [caminho de saida do .CSV/.JTL "aggregateReport.csv"]
+
+Geração de relatório jmeter charts:
+[Caminho do \bin\jmeter.bat] -g [Caminho do arquivo CSV para geração do relatório "agregate.csv"] -o [Caminho onde será salvo o relatório chamado index.html + Nome de uma pasta obrigatoriamente que não exista. Ex: "C:\Users\Relatorio_JMeterCharts"]
 ```
 
 
@@ -74,7 +73,7 @@ Configuracao para integracao via parametros
 | Aggregate Report      | ${__P(aggregate)}	| String		| Yes					|
 
 
-Agendamento Esteira Jenkins:
+Agendamento Pipeline Jenkins:
 ```
 00 22 * * 1
 ```

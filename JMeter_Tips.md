@@ -5,7 +5,6 @@ BT_1_${__time(yyyyMMdd-HHmmss)}.csv <br/>
 BT_2_${__time(yyyyMMdd-HHmmss)}.csv <br/>
 
 
-
 ### JMeter - Ultimate Thread Group - Load Test (40 Vus)
 |Start Thread Count   	| Initial Delay, sec   	  | Startup Time, sec  	| Hold Load For, sec  	| Shutdown Time     |
 |---	                |---	                  |---	                |---	                |---	            |

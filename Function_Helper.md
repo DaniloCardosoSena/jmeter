@@ -9,7 +9,7 @@ Language: javascript (ECMAScript ECMA - 262 Edition 5.1 / Oracle Nashorn 1.8.0_2
 ```
 var salePrice = vars.get("salePrice");
 var shippingTax = vars.get("shippingTax");
-vars.put("somaValoresFrete",parseFloat(salePrice) + parseFloat(shippingTax)); <br/>
+vars.put("somaValoresFrete",parseFloat(salePrice) + parseFloat(shippingTax));
 ```
 ### Cria arquivo *.csv* no caminho desejado com gravação de resultados:
 Language: java (BeanShell 2.0b6 / Bean Shell Engine 1.0)

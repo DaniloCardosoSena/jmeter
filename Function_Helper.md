@@ -13,9 +13,8 @@ var shippingTax = vars.get("shippingTax");
 vars.put("somaValoresFrete",parseFloat(salePrice) + parseFloat(shippingTax)); <br/>
 ```
 ### Cria arquivo .csv no caminho desejado com gravação de resultados:
+Language: java (BeanShell 2.0b6 / Bean Shell Engine 1.0)
 ```
-//Language: java (BeanShell 2.0b6 / Bean Shell Engine 1.0)
-
 import org.apache.jmeter.services.FileServer;
 
 f = new FileOutputStream("c:/CSVresult.csv", true); 

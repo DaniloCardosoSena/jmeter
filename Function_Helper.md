@@ -6,7 +6,7 @@ Options -> Function Helper Dialog (Ctrl + Shift + F1) <br/>
 `${__RandomDate(dd-MM-yyyy,01-01-2001,01-01-2100,pt_BR,dateRandom)}` = Gera data aleatória com range definido(01/2001 à 01/2100) e atribui resultado na variável *"dateRandom"*. <br/>
 `${__time(dd/MM/yyyy,dateNow)}` = Gera data atual no formato desejado e guarda na variável *"dateNow"*. <br/>
 `${__time(HH:mm:ss,timeNow)}` = Gera horário atual no formato desejado e guarda na variável *"timeNow"*. <br/>
-`${__timeShift(dd-mm-yy,now,P2D,pt_BR,dayPlus)}` = Gera data atual + 2 dias a frente(*P2D* - plus 2 days) no formato desejado e guarda na variável *"dayPlus"*. <br/>
+`${__timeShift(dd-MM-yy,now,P2D,pt_BR,dayPlus)}` = Gera data atual + 2 dias a frente(P2D - *plus 2 days*) no formato desejado e guarda na variável *"dayPlus"*. <br/>
  <br/>
 
 ## JSR223

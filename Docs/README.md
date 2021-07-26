@@ -14,6 +14,7 @@
 - Clear Cache
 - Clear Cookie
 - Verificar se não há algum dígito/espaço em branco dentro do robo
+- Verificar se falta processo de Autenticação da chamada (token)
 - Testar chamada no Postman, Insomnia ou Swagger-ui...
 - Testar bot em ambientes(máquinas) diferentes
 - Verificar se há Headers a mais(desnecessários) ou se falta Headers indispensáveis para chamada (Ex:"Soap", "Json")

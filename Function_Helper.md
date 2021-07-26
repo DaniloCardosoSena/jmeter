@@ -18,14 +18,14 @@ Options -> Function Helper Dialog (Ctrl + Shift + F1) <br/>
 ## JSR223
 ### Atribui à variável *somaValoresFrete* a somatória das variáveis *salePrice* e *shippingTax*:
 Language: javascript (ECMAScript ECMA - 262 Edition 5.1 / Oracle Nashorn 1.8.0_212)
-```
+```sh
 var salePrice = vars.get("salePrice");
 var shippingTax = vars.get("shippingTax");
 vars.put("somaValoresFrete",parseFloat(salePrice) + parseFloat(shippingTax));
 ```
 ### Cria arquivo *.csv* no caminho desejado com gravação de resultados:
 Language: java (BeanShell 2.0b6 / Bean Shell Engine 1.0)
-```
+```sh
 import org.apache.jmeter.services.FileServer;
 
 f = new FileOutputStream("c:/CSVresult.csv", true); 

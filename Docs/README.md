@@ -13,7 +13,7 @@
 - Checkbox Parâmetros (Encode | Include Equals)
 - Clear Cache
 - Clear Cookie
-- Verificar se não há algum dígito/espaço em branco nos campos de preenchiemnto e parâmetros do robô
+- Verificar se não há algum dígito/espaço em branco nos campos de preenchimento ou parâmetros do robô
 - Verificar se falta processo de Autenticação da chamada (token)
 - Testar chamada no Postman, Insomnia ou Swagger-ui...
 - Testar bot em ambientes(máquinas) diferentes

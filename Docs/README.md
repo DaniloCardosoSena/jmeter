@@ -7,8 +7,8 @@
 - Como funciona o processo de envio?
  <br />
 
-### Lista de Investigação
-**Pontos de Atenção Em Desenvolvimento de Robos no JMeter:**
+### Dicas de Investigação
+**Lista de Pontos de Atenção em Desenvolvimento de Robôs no JMeter:**
 - Encoding: UTF-8
 - Checkbox Parâmetros (Encode | Include Equals)
 - Clear Cache

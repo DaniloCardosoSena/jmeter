@@ -10,9 +10,11 @@ Options -> Function Helper Dialog (Ctrl + Shift + F1) <br/>
  - "PT20.345S" parses as "20.345 seconds" <br/>
  - "PT15M" parses as "15 minutes" <br/>
  - "PT10H" parses as "10 hours" <br/>
- - "P2D" parses as "2 days" <br/>
+ - "P2D" parses as "+ 2 days" <br/>
+ - "P-2D" parses as "-2 days" <br/>
  - "P365D" parses as "365 days(1 year)" <br/>
  - "P2DT3H4M" parses as "2 days, 3 hours and 4 minutes" <br/>
+ - "P-6H3M" parses as "-6 hours and +3 minutes" <br/>
  <br/>
 
 ## JSR223

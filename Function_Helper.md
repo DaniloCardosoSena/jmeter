@@ -2,17 +2,17 @@
 Options -> Function Helper Dialog (Ctrl + Shift + F1) <br/>
  <br/>
 `${__RandomString(11,0123456789,id)}` = Gera valor aleatório de 11 dígitos com números de 0 à 9 e armazena na variável *"id"*. <br/>
-`${__RandomFromMultipleVars(AVC|AZL|TAP|ACR,partner)}` = Seleciona randomicamente uma das variávies definidas(AVC, AZL...) para ser valor da variável *"partner"*. <br/>
+`${__RandomFromMultipleVars(AVC|AZL|TAP|ACR,partner)}` = Seleciona randomicamente uma das variáveis definidas(AVC, AZL...) para ser valor da variável *"partner"*. <br/>
 `${__RandomDate(dd-MM-yyyy,01-01-2001,01-01-2100,pt_BR,dateRandom)}` = Gera data aleatória com range definido(01/2001 à 01/2100) e atribui resultado na variável *"dateRandom"*. <br/>
 `${__time(dd/MM/yyyy,dateNow)}` = Gera data atual no formato desejado e guarda na variável *"dateNow"*. <br/>
 `${__time(HH:mm:ss,timeNow)}` = Gera horário atual no formato desejado e guarda na variável *"timeNow"*. <br/>
 `${__timeShift(dd-MM-yy,now,P2D,pt_BR,dayPlus)}` = Gera data atual + 2 dias a frente(P2D - *plus 2 days*) no formato desejado e guarda na variável *"dayPlus"*. <br/>
-"PT20.345S" parses as "20.345 seconds" <br/>
-"PT15M" parses as "15 minutes" <br/>
-"PT10H" parses as "10 hours" <br/>
-"P2D" parses as "2 days" <br/>
-"P365D" parses as "365 days(1 year)" <br/>
-"P2DT3H4M" parses as "2 days, 3 hours and 4 minutes" <br/>
+ - "PT20.345S" parses as "20.345 seconds" <br/>
+ - "PT15M" parses as "15 minutes" <br/>
+ - "PT10H" parses as "10 hours" <br/>
+ - "P2D" parses as "2 days" <br/>
+ - "P365D" parses as "365 days(1 year)" <br/>
+ - "P2DT3H4M" parses as "2 days, 3 hours and 4 minutes" <br/>
  <br/>
 
 ## JSR223

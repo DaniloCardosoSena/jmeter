@@ -4,6 +4,9 @@ Options -> Function Helper Dialog (Ctrl + Shift + F1) <br/>
 `${__RandomString(11,0123456789,id)}` = Gera valor aleatório de 11 dígitos com números de 0 à 9 e armazena na variável *"id"*. <br/>
 `${__RandomFromMultipleVars(AVC|AZL|TAP|ACR,partner)}` = Seleciona randomicamente uma das variávies definidas(AVC, AZL...) para ser valor da variável *"partner"*. <br/>
 `${__RandomDate(dd-MM-yyyy,01-01-2001,01-01-2100,br_BR,dateRandom)}` = Gera data aleatória com range definido(01/2001 à 01/2100) e atribui resultado na variável *"dateRandom"*. <br/>
+`${__time(dd/MM/yyyy,dateNow)}` = Gera data atual no formato desejado e guarda na variável *"dateNow"*. <br/>
+`${__time(HH:mm:ss,timeNow)}` = Gera horário atual no formato desejado e guarda na variável *"timeNow"*.. <br/>
+ <br/>
 
 ### Atribui à variável *somaValoresFrete* a somatória das variáveis *salePrice* e *shippingTax*:
 Language: javascript (ECMAScript ECMA - 262 Edition 5.1 / Oracle Nashorn 1.8.0_212)

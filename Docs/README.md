@@ -13,7 +13,7 @@
 - Checkbox Parâmetros (Encode | Include Equals)
 - Clear Cache
 - Clear Cookie
-- Verificar se não tem algum dígito/espaço em branco dentro do robo
+- Verificar se não há algum dígito/espaço em branco dentro do robo
 - Testar chamada no Postman, Insomnia ou Swagger-ui...
 - Testar bot em ambientes(máquinas) diferentes
 - Verificar se há Headers a mais(desnecessários) ou se falta Headers indispensáveis para chamada (Ex:"Soap", "Json")

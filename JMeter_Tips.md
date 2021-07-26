@@ -14,10 +14,8 @@ Geração de relatório jmeter charts:
 
 
 ### JMeter - Saída de arquivos padrões
-```
-BT_1_${__time(yyyyMMdd-HHmmss)}.csv
-BT_2_${__time(yyyyMMdd-HHmmss)}.csv
-```
+- BT_1_${__time(yyyyMMdd-HHmmss)}.csv
+- BT_2_${__time(yyyyMMdd-HHmmss)}.csv
 
 
 ### JMeter - Ultimate Thread Group - Load Test (40 Vus)
@@ -39,7 +37,7 @@ User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, 
 
 ### JMeter - HTTP Header Manager (REST JSON Requests)
 Content-Type: application/json;charset=UTF-8 <br/>
-Accept: application/json <br/>
+Accept: application/json, text/plain, \*/\* <br/>
 Accept-Encoding: gzip, deflate <br/>
 Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7 <br/>
 Cache-Control: no-cache <br/>
@@ -62,9 +60,13 @@ Body:
 </soapenv:Envelope>
 ```
 
+### JMeter - HTTP Header Manager
+- Authorization:	Bearer ${token}
+- X-Auth-Token: Bearer ${token}
+
 ### JMeter - Jenkins Configs
 
-Configuracao para integracao via parametros JMeter Thread Group
+Configuracao para integracao via parametros JMeter - Thread Group
 
 |Param   	  	| EL / Value  		| Type			| Required				|
 |---	                |---	                |---			|---					|

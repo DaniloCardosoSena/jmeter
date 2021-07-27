@@ -32,7 +32,7 @@ import org.apache.jmeter.services.FileServer;
 
 f = new FileOutputStream("c:/CSVresult.csv", true); 
 p = new PrintStream(f); 
-p.println( "z${id}" + "," + "cyd${id}" ); // atualize aqui o que vc deseja escrever
+p.println( "z${id1}" + "," + "cyd${id2}" ); // atualize aqui o que vc deseja escrever
 p.close();
 f.close();
 ```

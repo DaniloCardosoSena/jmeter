@@ -21,6 +21,6 @@
 - Recriação novo .JMX com componentes novos(sem cópia de parametrôs antigos).
 
 
-## Dica #1
+### Dica #1
 Arquivo Pesado: `java_pid.hprof` <br />
 Arquivo Java Dump do JMeter que são salvos automaticamente na pasta */bin*, podem ser excluídos pois consomem muita memória do disco sem necessidade. <br />

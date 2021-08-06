@@ -22,5 +22,5 @@
 
 
 ### Dica #1
-Arquivo Pesado: `java_pid.hprof` <br />
+Arquivos: `java_pid.hprof` & `hs_err_pid.mdmp`<br />
 Arquivo Java Dump do JMeter que são salvos automaticamente na pasta */bin*, podem ser excluídos pois consomem muita memória do disco sem necessidade. <br />

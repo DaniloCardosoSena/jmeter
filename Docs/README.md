@@ -37,8 +37,10 @@ Source: (PushbackInputStream) <br />
 Como alternativa, basta usar / em vez do separador de caminho - por exemplo, C: / test / $ {test} - As JVMs do Windows converterão os separadores conforme necessário.
  <br />
 Correto: <br />
+```
 {                                                  |                        {<br />
 "description": "TesteERP ${id}",                   |                        "description": "TesteERP ${id}", <br />
 "archiveType": "I",                                |   Ou                   "archiveType": "I", <br />
 "directory": "d:\\\teste\\\destino"                |                        "directory": "d:/teste/destino" <br />
 }                                                  |                        }<br />
+```

@@ -26,14 +26,14 @@ Arquivos: `java_pid.hprof` & `hs_err_pid.mdmp`<br />
 Arquivo Java Dump do JMeter que são salvos automaticamente na pasta */bin*, podem ser excluídos pois consomem muita memória do disco sem necessidade. <br />
 
 
-### Dica #1
+### Dica #2
 #### Erro JMeter payload com diretório "caminho"
 Erro: 400 Bad Request <br />
 "code":"SGCB-006","message":"Json invÃ¡lido.","detail":"JSON parse error: Unrecognized character escape '$' <br />
 nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unrecognized character escape '$' (code 36) <br />
 Source: (PushbackInputStream) <br />
  <br />
-Ao usar \ antes de uma variável para um caminho do Windows, por exemplo C: \ test \ $ {test}, certifique-se de escapar do \ caso contrário, o JMeter não interpretará a variável, exemplo: C: \\ test \\ $ {test}.
+> Ao usar \ antes de uma variável para um caminho do Windows, por exemplo C: \ test \ $ {test}, certifique-se de escapar do \ caso contrário, o JMeter não interpretará a variável, exemplo: C: \\ test \\ $ {test}.
 Como alternativa, basta usar / em vez do separador de caminho - por exemplo, C: / test / $ {test} - As JVMs do Windows converterão os separadores conforme necessário.
  <br />
 { <br />

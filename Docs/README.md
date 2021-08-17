@@ -42,5 +42,12 @@ Correto:
 "description": "TesteERP ${id}", <br />
 "archiveType": "I", <br />
 "directory": "d:\\\teste\\\destino" <br />
-}   
-```
+} <br />
+ <br />
+Ou <br />
+ <br />
+{ <br />
+"description": "TesteERP ${id}", <br />
+"archiveType": "I", <br />
+"directory": "d:/teste/destino" <br />
+} <br />

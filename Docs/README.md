@@ -36,8 +36,9 @@ Source: (PushbackInputStream) <br />
 > Ao usar \ antes de uma variável para um caminho do Windows, por exemplo C: \ test \ $ {test}, certifique-se de escapar do \ caso contrário, o JMeter não interpretará a variável, exemplo: C: \\ test \\ $ {test}.
 Como alternativa, basta usar / em vez do separador de caminho - por exemplo, C: / test / $ {test} - As JVMs do Windows converterão os separadores conforme necessário.
  <br />
-{ <br />
-"description": "TesteERP ${idConvenio}", <br />
-"archiveType": "I", <br />
-"directory": "d:\\\teste\\\destino" <br />
-} <br />
+Correto: <br />
+{                                                                          {<br />
+"description": "TesteERP ${id}",                                           "description": "TesteERP ${id}", <br />
+"archiveType": "I",                                   Ou                   "archiveType": "I", <br />
+"directory": "d:\\\teste\\\destino"                                        "directory": "d:/teste/destino" <br />
+}                                                                          }<br />

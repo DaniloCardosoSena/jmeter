@@ -82,3 +82,8 @@ Agendamento Pipeline Jenkins:
 ```
 00 22 * * 1
 ```
+
+
+### Run JMeter With Proxy
+Configurar JMETER_HOME nas variáveis de ambiente da máquina; <br/>
+Executar CMD: jmeter -H [host] -P [Port]

@@ -86,7 +86,9 @@ Configurar JMETER_HOME nas variáveis de ambiente da máquina; <br/>
 Executar CMD: 
 ```jmeter -H [host] -P [Port]```
 
+
 ### JMeter Recording (URL Patterns to Exclude):
+```
 .*msg\.yahoo\.com.* <br/>
 www\.download\.windowsupdate\.com.* <br/>
 http?://self-repair\.mozilla\.org.* <br/>
@@ -103,3 +105,4 @@ www\.google\.com.\br.* <br/>
 clients.*\.google.* <br/>
 .*toolbar\.yahoo\.com.* <br/>
 geo\.yahoo\.com.* <br/>
+```

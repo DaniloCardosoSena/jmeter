@@ -89,20 +89,20 @@ Executar CMD:
 
 ### JMeter Recording (URL Patterns to Exclude):
 ```
-.*msg\.yahoo\.com.* <br/>
-www\.download\.windowsupdate\.com.* <br/>
-http?://self-repair\.mozilla\.org.* <br/>
-tiles.*\.mozilla\.com.* <br/>
-.*detectportal\.firefox\.com.* <br/>
-.*\.google\.com.*/safebrowsing/.* <br/>
-.bing\.com.* <br/>
-toolbar\.google\.com.* <br/>
-www\.google-analytics\.com.* <br/>
-www\.google\.com.* <br/>
-.*\.google\.com.* <br/>
-.google\.com.* <br/>
-www\.google\.com.\br.* <br/>
-clients.*\.google.* <br/>
-.*toolbar\.yahoo\.com.* <br/>
-geo\.yahoo\.com.* <br/>
+.*msg\.yahoo\.com.*
+www\.download\.windowsupdate\.com.*
+http?://self-repair\.mozilla\.org.*
+tiles.*\.mozilla\.com.*
+.*detectportal\.firefox\.com.*
+.*\.google\.com.*/safebrowsing/.*
+.bing\.com.*
+toolbar\.google\.com.*
+www\.google-analytics\.com.*
+www\.google\.com.*
+.*\.google\.com.*
+.google\.com.*
+www\.google\.com.\br.*
+clients.*\.google.*
+.*toolbar\.yahoo\.com.*
+geo\.yahoo\.com.*
 ```

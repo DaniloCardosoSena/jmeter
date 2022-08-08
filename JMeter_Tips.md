@@ -106,3 +106,8 @@ clients.*\.google.*
 .*toolbar\.yahoo\.com.*
 geo\.yahoo\.com.*
 ```
+
+### Config JMeter HEAP Memory
+- set HEAP=-Xms4g -Xmx4g -XX:MaxMetaspaceSize=512m
+- set HEAP=-Xms8g -Xmx8g -XX:MaxMetaspaceSize=1024m
+- set HEAP=-Xms16g -Xmx16g -XX:MaxMetaspaceSize=2048m

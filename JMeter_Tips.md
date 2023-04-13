@@ -108,6 +108,7 @@ geo\.yahoo\.com.*
 ```
 
 ### Config JMeter HEAP Memory
-- set HEAP=-Xms4g -Xmx4g -XX:MaxMetaspaceSize=512m
-- set HEAP=-Xms8g -Xmx8g -XX:MaxMetaspaceSize=1024m
-- set HEAP=-Xms16g -Xmx16g -XX:MaxMetaspaceSize=2048m
+- set HEAP=-Xms4g -Xmx4g -XX:MaxMetaspaceSize=512m       (1.000 Vus)
+- set HEAP=-Xms8g -Xmx8g -XX:MaxMetaspaceSize=1024m      (Até uns 3.000 Vus)
+- set HEAP=-Xms16g -Xmx16g -XX:MaxMetaspaceSize=2048m    (Até uns 5.000 Vus)
+- set HEAP=-Xms32g -Xmx32g -XX:MaxMetaspaceSize=4096m    (Até uns 10.000 Vus)

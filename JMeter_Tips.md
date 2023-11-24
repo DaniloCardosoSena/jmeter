@@ -117,7 +117,7 @@ geo\.yahoo\.com.*
 ### (WARN) Erros Logando no Console quando inicia JMeter
 - WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
 ```
-Alterar arquivo: C:\apache-jmeter-5.6.2-Bolts-1.2\apache-jmeter\bin\log4j2.xml
+Alterar arquivo: C:\apache-jmeter-5.6.2\bin\log4j2.xml
 Comentar linhas: 
 	packages="org.apache.jmeter.gui.logging"
 	<GuiLogEvent name="gui-log-event">

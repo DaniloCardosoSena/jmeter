@@ -112,3 +112,13 @@ geo\.yahoo\.com.*
 - set HEAP=-Xms8g -Xmx8g -XX:MaxMetaspaceSize=1024m      (Até uns 3.000 Vus)
 - set HEAP=-Xms16g -Xmx16g -XX:MaxMetaspaceSize=2048m    (Até uns 5.000 Vus)
 - set HEAP=-Xms32g -Xmx32g -XX:MaxMetaspaceSize=4096m    (Até uns 10.000 Vus)
+
+
+### (WARN) Erros Logando no Console quando inicia JMeter
+```
+Alterar arquivo: C:\apache-jmeter-5.6.2-Bolts-1.2\apache-jmeter\bin\log4j2.xml
+Comentar linhas: 
+	packages="org.apache.jmeter.gui.logging"
+	<GuiLogEvent name="gui-log-event">
+	<AppenderRef ref="gui-log-event" />
+```

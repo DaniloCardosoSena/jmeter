@@ -123,3 +123,8 @@ Comentar linhas:
 	<GuiLogEvent name="gui-log-event">
 	<AppenderRef ref="gui-log-event" />
 ```
+
+### REGEX
+```
+"(.*?)"
+```
